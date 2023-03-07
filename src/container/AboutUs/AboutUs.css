@@ -6,8 +6,6 @@
 .app__aboutus-overlay {
     position: absolute;
     inset: 0;
-    /* The inset property in CSS is a shorthand for the four inset properties, top , right , bottom and left.
-     Just like the four individual properties themselves, inset has no effect on non-positioned (static) elements. */
 }
 
 .app__aboutus-overlay img {
@@ -23,8 +21,6 @@
 
 .app__aboutus-content_about {
     flex: 1;
-    /* it pushes everthing to left acc to yt */
-    /* a component to fill all available space, shared evenly amongst other components with the same parent. */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
